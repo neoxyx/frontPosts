@@ -1,6 +1,6 @@
 async function loadPosts() {
     try {
-        const response = await fetch('/api/posts/1');
+        const response = await fetch('/postsPHP/api/posts/1');
         const posts = await response.json();
 
         let postsHTML = '';
